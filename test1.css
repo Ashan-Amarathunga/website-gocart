@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mitr:wght@200;300;400;500;600;700&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.heading-product{display: flex;justify-content: space-between; max-width: 1200px;margin-left: auto;margin-right: auto;}
+
+.heading-product h3{
+    font-family: "Lalezar", system-ui;
+    font-weight: 500;
+    font-style: normal;
+    float: left;
+    display: block;
+    color: black;
+    font-size: 2rem;
+}
+
+.heading-product h3 span{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(155, 155, 155);
+    text-align: left; 
+    margin-top: 2px;
+    line-height: 0px;
+    font-weight: 500;
+}
+
+.heading-product a{
+    float: right;
+    margin-top: 30px;
+    font-family: "Roboto", sans-serif;
+    column-gap: 0.5rem;
+    background-color: rgb(153, 4, 4);
+    display: flex;
+    padding: 5px 12px 5px 12px;
+    border-radius: 23px;
+    height: 40px;
+    font-size: 15px;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 160px;
+    color: white;
+    font-weight: 500;
+}
+
+.heading-product button{
+    border-radius: 50%;
+    padding: 7px 10px 7px 10px;
+    background-color:white;
+    border: none;
+    margin-right: 4px;
+
+}
+
+.tab{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 60px;
+    border: 1px solid rgb(225, 225, 225);
+    padding-bottom:15px;
+    padding-top:15px;
+}
+
+.tab-link{
+    background-color: white;
+    border: none;
+    font-size: 19px;
+    color: rgb(0, 0, 0);
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+}
+
+.tabcontent{
+    display: flex;
+    gap:40px;
+    padding-top: 20px;
+    padding-left: 20px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.content1-pic{
+    display: grid;
+    grid-template-columns: 1fr;
+    background-color: black;
+    border: none;
+    min-height: 300px;
+    min-width: 250px;
+    border-radius: 20px;
+    position: relative;
+    transition: transform 0.3s ease;
+}
+
+.content1-pic h1{
+    font-size: 45px;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+    padding-top: 0px;
+    color: white;
+    margin-bottom: 0;
+    margin-top: 8px;
+    text-align: center;
+}
+
+.content1-pic p{
+    font-size: 17px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(255, 146, 12);
+    text-align: left;
+    font-weight: bold;
+    padding: 0px 0px 0px 20px;
+}
+
+.content1-img{
+    height: 220px;
+    width: 100%;
+    object-position: center;
+    align-items: center;
+    object-fit: contain;
+    border-radius: 20px;
+}
+
+.content1-pic a h2{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+
+}
+
+.price-icon{
+    background-color: rgb(0, 172, 0);
+    padding: 10px;
+    position: absolute;
+    top:5rem;
+    left:0;
+    background-color: orange;
+    padding: 0px 5px ;
+    padding-right: 20px;
+    clip-path: polygon(100% 0%, 82% 50%, 100% 100%, 0 99%, 0% 50%, 0 0);
+    
+}
+
+.cart-icon{
+    background-color: rgb(0, 172, 0);
+    border-radius: 0.5rem 0 0.5rem 0;
+    padding: 10px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;   
+}
+
+.content1-scroll{
+    display: flex;
+    white-space:nowrap;
+    align-items: center;
+    overflow: hidden;
+}
+
+.content1-product{
+    display: inline-block;
+    white-space: nowrap;
+    overflow-x: auto;
+    display: flex;
+    gap: 25px;
+    scrollbar-width: none;
+}
+
+.content1-product::-webkit-scrollbar {
+    display: none; 
+}
+
+.box{
+    padding: 20px;
+    border-radius: 0.5rem;
+    position: relative;
+    border: 1px solid rgb(193, 193, 193);
+
+}
+
+.box img{
+    width: 100%;
+    height: 200px;
+    object-position: center;
+    object-fit: contain;
+
+}
+
+.box h2{
+    font-size: 27px;
+    margin-top: 0.5rem;
+    margin-bottom: 0px;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-family: "Kanit", sans-serif;
+    font-style: normal;
+}
+
+.box p{
+    font-size: 16px;
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    color: rgb(255, 146, 12);
+    font-weight: bold;
+    line-height: 0;
+}
+
+.box h3{
+    font-size: 14px;
+    margin-top: 0rem;
+    margin-bottom: 6px;
+    line-height: 15px;
+    font-style: normal;
+    color: grey;
+    font-weight: 500;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+}
+
+.cart-icon1{
+    background-color: rgb(0, 172, 0);
+    border-radius: 0.5rem 0 0.5rem 0;
+    padding: 10px;
+    color: white;
+    font-family: "Kanit", sans-serif;
+    font-size: 14px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;  
+}
+
+.vertical-product{
+    white-space:nowrap;
+    align-items: center;
+    overflow: hidden;
+    max-height: 400px;
+    overflow-y: auto;
+    border-bottom: 2px solid rgb(222, 222, 222);
+    padding-bottom: 50px;
+}
+
+.content1-pic:hover{
+    transform: scale(1.1);
+}
+
+.box:hover{
+    box-shadow: 10px 10px 20px rgba(132, 132, 132, 0.3);
+    border: none;
+}
+
+
+@media (max-width: 719px) {
+
+    .scroll-list1{border-radius: 10px;}
+
+    .home-content {
+        text-align: center;
+        overflow-x: hidden;
+    }
+
+    .home-img {
+        height: 330px;
+        max-width: 400px;
+        object-fit: cover;
+    }
+
+    .home-text h1 {
+        font-size: 45px;
+    }
+
+    .home-text p {
+        font-size: 10px;
+    }
+
+    .butn-order {
+        max-width: 90px;
+        padding: 10px 8px 8px 10px;
+        margin-bottom: 10px;
+    }
+
+    .home-text h3 {
+        font-size: 14px;
+    }
+
+    .scroll-container1 {
+        padding: 30px 0px 15px 0px;
+    }
+
+    .home-text {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .home-text h1, .home-text p, .home-text h3, .butn-order {
+        text-align: center;
+    }
+
+    .heading-product h3{
+        font-size: 20px;
+    }
+
+    .heading-product a{
+        column-gap: 0.5rem;
+        background-color: rgb(153, 4, 4);
+        padding: 2px 8px 2px 8px;
+        border-radius: 23px;
+        height: 40px;
+        font-size: 13px;
+    }
+    
+    .heading-product button{
+        border-radius: 50%;
+        padding: 5px 7px 5px 7px;
+        margin-left: 13px;
+    }
+
+}
+
+@media (min-width: 720px) and (max-width: 767.98px) {
+    .home-img {
+        height: 350px;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .home-text h1 {
+        font-size: 45px;
+    }
+
+    .home-text p {
+        font-size: 10px;
+    }
+
+    .butn-order {
+        max-width: 90px;
+        padding: 10px 8px 8px 10px;
+        margin-bottom: 10px;
+    }
+
+    .home-text h3 {
+        font-size: 14px;
+    }
+
+    .scroll-container1 {
+        padding: 30px 40px 15px 40px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .home-img {
+        height: 350px;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .home-text h1 {
+        font-size: 55px;
+    }
+
+    .home-text p {
+        font-size: 10px;
+    }
+
+    .butn-order {
+        max-width: 90px;
+        padding: 10px 8px 8px 10px;
+        margin-bottom: 10px;
+    }
+
+    .home-text h3 {
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .home-img {
+        height: 350px;
+        max-width: 100%;
+    }
+
+    .home-text h1 {
+        font-size: 65px;
+        margin-top: 75px;
+    }
+
+    .home-text p {
+        font-size: 16px;
+    }
+
+    .butn-order {
+        max-width: 90px;
+        padding: 10px 8px 8px 10px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .home-img {
+        height: 480px;
+        max-width: 100%;
+    }
+
+    .home-text h1 {
+        font-size: 80px;
+    }
+
+    .home-text p {
+        font-size: 1.025rem;
+    }
+
+    .butn-order {
+        max-width: 110px;
+    }
+}
+
